@@ -1,0 +1,14 @@
+.header-paragraph {
+  position: absolute;
+  z-index: 20;
+  margin-left: 39%;
+  margin-top: 205px;
+  font-size: 70px;
+  line-height: 82.03px;
+  color: #274c5b;
+}
+.header-div {
+  background-image: url("../../images/Header.png");
+  height: 450px;
+  width: 100vw;
+}

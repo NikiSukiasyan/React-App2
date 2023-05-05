@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Roboto Medium";
+  src: url("../../fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.footer-box {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 1500px;
+  position: relative;
+}
+
+.contact-box {
+  margin-top: 130px;
+  margin-left: 311px;
+}
+
+.contact-box h4 {
+  font-family: "Roboto Medium";
+  font-size: 30px;
+  line-height: 35.16px;
+  color: #274c5b;
+  margin-left: 75px;
+}
+.after {
+  width: 2px;
+  height: 295px;
+  background-color: #d4d4d4;
+  margin-top: 99px;
+  margin-left: -161px;
+}
+.organick-box {
+  position: relative;
+}
+.logo {
+  position: absolute;
+  left: -152px;
+  top: -73px;
+}
+.organick-box h2 {
+  font-family: "Roboto Medium";
+  font-size: 38px;
+  color: #274c5b;
+  position: absolute;
+  left: -80px;
+  top: -69px;
+}
+.organick-box p {
+  width: 543px;
+  height: 60px;
+  font-size: 18px;
+  color: #525c60;
+  line-height: 29.77px;
+  position: absolute;
+  left: -284px;
+  text-align: center;
+}
+.logos {
+  position: absolute;
+  top: 93px;
+  left: -172px;
+  cursor: pointer;
+}
+.second-after {
+  width: 2px;
+  height: 295px;
+  background-color: #d4d4d4;
+  margin-top: 99px;
+  margin-left: 101px;
+}
+.utility-box {
+  position: absolute;
+  left: 1335px;
+  top: 130px;
+}
+.utility-box h2 {
+  font-family: "Roboto Medium";
+  font-size: 30px;
+  line-height: 35.16px;
+  color: #274c5b;
+  width: 174px;
+  padding-bottom: 10px;
+}
+.utility-box p {
+  font-size: 18px;
+  line-height: 49.12px;
+  color: #525c60;
+}

@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Roboto Medium";
+  src: url("../../fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.news-box {
+  background-image: url(/src/images/NewsPhoto.jpg);
+  height: 323px;
+  width: 1400px;
+  margin-top: 240px;
+  margin-left: 16%;
+  border-radius: 20px;
+  position: relative;
+}
+.news-box p {
+  margin-left: 71px;
+  font-family: "Roboto Medium";
+  font-size: 50px;
+  line-height: 58.59px;
+  color: #ffffff;
+  width: 357px;
+  padding-top: 105px;
+}
+.news-box input {
+  width: 349px;
+  height: 80px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 0px;
+  margin-left: 800px;
+  position: absolute;
+  top: 130px;
+  padding-left: 23px;
+  color: #ababab;
+  font-size: 18px;
+}
+.news-box button {
+  width: 220px;
+  height: 80px;
+  border-radius: 16px;
+  padding: 28px, 47px, 29px, 47px;
+  background-color: #274c5b;
+  border: 0px;
+  color: #ffffff;
+  position: absolute;
+  top: 130px;
+  left: 1156px;
+  font-size: 20px;
+  cursor: pointer;
+}

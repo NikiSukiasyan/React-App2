@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Roboto Medium";
+  src: url("../../fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Yellowtail";
+  src: url("../../fonts/Yellowtail-Regular.ttf") format("truetype");
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 0.3fr);
+  row-gap: 55px;
+  margin-top: 105px;
+  margin-left: 15%;
+}
+.container img {
+  border-radius: 25px;
+}
+.container p {
+  font-size: 25px;
+  line-height: 29.3px;
+  color: #274c5b;
+  padding-bottom: 5px;
+  font-family: "Roboto Medium";
+}
+.container span {
+  font-family: "Yellowtail";
+  font-size: 25px;
+  line-height: 29.98px;
+  color: #7eb693;
+}
+.mail {
+  font-size: "18px";
+  font-family: "Roboto Medium";
+  margin-left: 180px;
+  padding-top: 13px;
+  color: #525c60;
+}
+.mail-span {
+  color: #525c60;
+  margin-left: 66px;
+}
+.phone {
+  font-size: "18px";
+  font-family: "Roboto Medium";
+  margin-left: 178px;
+  margin-top: 21px;
+  color: #525c60;
+}
+.phone-num {
+  color: #525c60;
+  margin-left: 150px;
+}
+.adress {
+  font-size: 18px;
+  font-family: "Roboto Medium";
+  margin-left: 160px;
+  margin-top: 23px;
+  color: #525c60;
+}
+.str {
+  color: #525c60;
+  margin-left: 45px;
+}
